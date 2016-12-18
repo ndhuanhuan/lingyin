@@ -1,0 +1,21 @@
+Network problems: Is it everyone or just my local area?
+Sometimes a website loads slowly not because the server is slow
+ but because your network connection to the server is slow or 
+ intermittent at one of the network jumps between your location
+ and the server. 
+ 
+ 
+Page-specific problems?
+We should also test whether the slowness is limited to specific
+web pages.
+Many modern web pages contain dozens of complex elements which can make webpage load slow.
+
+
+
+Database problems?
+If the page incorporate with any database queries, we should probably test for possible database server slowness.
+
+
+Server load
+
+If the new feature cause a heavy server load, we probably need to test and optimize it.
