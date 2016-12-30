@@ -39,17 +39,17 @@ using namespace std;
 
 int sum = 0;
 void helper(MultiDimArray &m, vector<int> path, const vector<int> &dimensions, int curDim) {
-	if (curDim == dimensions.size()) {
+	if (curDim == dimensions.size()) {            //if we construct the last dimension, we'll get the sum.
 		sum += m.get(path);
 		return;
 	}
-	for (int i = 0; i<dimensions[curDim]; i++) {
+	for (int i = 0; i<dimensions[curDim]; i++) {   //iterate through all possible combinations.
 		path[curDim] = i;
 		helper(m, path, dimensions, curDim + 1);
 	}
 }
 int arraySum(MuitiDimArray m, vector<int> dimensions) {
-	vector<int> path(dimensions.size(), 0);
+	vector<int> path(dimensions.size(), 0);   //how many dimensions, for example m[1][3][2][4] is a four dimensions array. the path is the path to the array number.
 	helper(m, path, dimensions, 0);
 	return sum;
 }
