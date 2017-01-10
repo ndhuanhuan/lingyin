@@ -1,6 +1,6 @@
 // Leetcode.cpp : Defines the entry point for the console application.
 //http://wxx5433.github.io/longest-palindromic-subsequence.html
-
+// Write a function to compute the maximum length palindromic sub-sequence of an array. A palindrome is a sequence which is equal to its reverse. A sub-sequence of an array is a sequence which can be constructed by removing elements of the array. Ex: Given [4,1,2,3,4,5,6,5,4,3,4,4,4,4,4,4,4] should return 10 (all 4's) / class Interview { public static int maxLengthPalindrome(int[] values) { //ur implementation here } */
 
 #include "stdafx.h"
 #include <iostream>
