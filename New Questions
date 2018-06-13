@@ -1,0 +1,23 @@
+Print all nodes at distance k from a given node
+https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+https://gist.github.com/ssinganamalla/6cfcc4b4af64041f4924
+https://gist.github.com/nups/a7f7eb59fbcca5df7713
+
+findmiddle stack
+http://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/
+https://github.com/nkatre/Operations-on-Stack/blob/master/findMiddle%20and%20deleteMiddle%20in%20constant%20time%20in%20Stack
+
+
+K closest points to origin
+http://zhaonantechinterview.blogspot.com/2014/07/amazon-oa-k-points-closest-to-originnk.html
+http://www.cnblogs.com/EdwardLiu/p/6546969.html
+http://www.zrzahid.com/k-closest-points/
+https://solvethat.wordpress.com/2013/10/21/find-the-k-closest-point-to-the-origin/
+
+
+implement bst
+https://gist.github.com/harish-r/a7df7ce576dda35c9660
+
+
+Add interval getTotalCoverage
+https://blog.csdn.net/craiglin1992/article/details/44759403
